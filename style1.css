@@ -1,0 +1,85 @@
+h1{
+    color:rgba(216, 3, 249, 0.699);
+}
+.container{
+    margin:50px auto;
+    width: 350px;
+    padding:15px;
+    background-color: skyblue;
+    border-radius: 20px;
+    border: 2px solid grey;
+}
+input{
+    padding:8px 5px;
+    width:100%;
+    font-size:38px;
+    border-radius:15px;
+    border:none;
+    outline:none;
+    color:black;
+    box-sizing: border-box;
+    margin-bottom:25px;
+    text-align: left;
+}
+.row{
+    display:flex;
+    justify-content: space-between;
+    margin:5px;
+}
+button{
+    font-size: 35px;
+    width:60px;
+    height: 60px;
+    border-radius:50%;
+    object-fit: cover;
+    border:none;
+    margin:5px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    font-weight:40px;
+    color:black;
+    cursor:pointer;
+}
+.btn{
+    background-color:rgb(163, 209, 217);
+}
+.voilet{
+    background-color:rgb(209, 255, 6);
+}
+.voilet:hover{
+    background-color:rgb(18, 250, 10);
+}
+button:hover{
+    background-color: rgb(84, 9, 246);
+}
+.btn:hover{
+    background-color: rgb(15, 218, 15);
+}
+
+.red:hover{
+    background-color:rgb(234, 221, 221); 
+}
+
+
+@media(max-width:576px){
+    body{
+        padding:0;
+        margin:50px auto;
+    }
+    button:hover{
+        background-color: rgb(24, 4, 238);
+    }
+    .btn:hover{
+        background-color: rgb(115, 223, 115);
+    }
+    
+    .red:hover{
+        background-color:rgb(202, 47, 47); 
+    }
+    .container{
+        margin:50px auto;
+        width:300px;
+        margin-top:15px;
+    }
+}
